@@ -1,0 +1,109 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Press Start 2P";
+    color: white;
+ }
+      
+body{
+    background-color: black;
+}
+
+.container1{
+    
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+    
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0;
+}
+.questionMark{
+    text-align: center;
+    font-size: 30px;
+    background-color: blueviolet;
+    width: 70px;
+    height: 50px;
+    margin:auto;
+    align-content: center;
+    padding: 10px;
+    transform: translate(-50%,50%);
+
+}
+.guessNum{
+    display: block;
+    background-color: black;
+    font-size:20px ;
+    
+}
+.container2{
+    border-top: 7px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 150px 0 20px 0;
+    text-align: center;
+    width: 100%;
+   
+}
+
+form{
+    
+    align-content:center ;
+}
+.btn{
+    background-color: lightgray;
+    border: none;
+    padding: 6px;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    transform: scale(0.9);
+    box-shadow: 10px 10px 15px rgba(255 255 255 0.1);
+}
+
+#btn_again{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#btn_check{
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+}
+.guessNum{
+    outline: none;
+    padding: 3px;
+    margin: 3px;
+    width: 130px;
+    height: 45px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.scoreSection{
+   
+   text-align: start;
+
+}
+
+.container2 input{
+    margin-bottom: 10px;
+}
+.scoreSection p{
+    margin-bottom: 28px;
+    font-size: 20px;
+}
